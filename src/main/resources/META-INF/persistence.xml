@@ -3,6 +3,7 @@
              xmlns="http://xmlns.jcp.org/xml/ns/persistence"
              xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
     <persistence-unit name="sscce" transaction-type="RESOURCE_LOCAL">
+        <!--<provider>org.hibernate.ejb.HibernatePersistence</provider>-->
         <class>foo.bar.sscce.jpa.entities.Customer</class>
         <class>foo.bar.sscce.jpa.entities.Sale</class>
 

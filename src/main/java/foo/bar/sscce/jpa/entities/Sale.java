@@ -12,6 +12,7 @@ public class Sale {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
+    @Column(name = "uiae")
     private String name;
     @ManyToOne(fetch = FetchType.LAZY)
     private Customer customer;
